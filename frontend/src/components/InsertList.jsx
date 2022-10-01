@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { TextField } from '@chakra-ui/react';
+import { Input } from '@chakra-ui/react';
 
 export function InsertList({ onInsertList }) {
     const [listName, setListName] = useState('')
@@ -19,7 +19,7 @@ export function InsertList({ onInsertList }) {
         <div className="form">
             <strong>Cadastrar Lista</strong>
             <form noValidate autoComplete="off" onSubmit={handleSubmit}>
-                <TextField 
+                <Input 
                     name="listName"
                     id="listName"
                     label="Titulo da Lista de Tarefas"

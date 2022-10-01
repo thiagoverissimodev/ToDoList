@@ -1,6 +1,9 @@
 import React, {useState, useEffect} from "react";
 import { useNavigate } from "react-router-dom";
-import { Header, Task, InsertList, InsertTask } from '../../components/Header'
+import { Header } from '../../components/Header'
+import { Task } from '../../components/Task'
+import { InsertList } from '../../components/InsertList'
+import { InsertTask } from '../../components/InsertTask'
 import { Container, Grid } from "@chakra-ui/react";
 
 import './styles.css';

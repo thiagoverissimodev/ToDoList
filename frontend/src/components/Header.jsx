@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import {Link, useNavigate} from 'react-router-dom'
 import { FiPower } from 'react-icons/fi'
-import { Link, Box, Flex, Text, Button, Stack } from "@chakra-ui/react";
+import { Box, Flex, Text, Button, Stack } from "@chakra-ui/react";
   
   const NavBar = (props) => {
   }
@@ -78,7 +78,7 @@ import { Link, Box, Flex, Text, Button, Stack } from "@chakra-ui/react";
             pt={[4, 4, 0, 0]}
           >
             <MenuItem to="/">Home</MenuItem>
-            <MenuItem to="/signup" isLast>
+            {/* <MenuItem to="/signup" isLast>
               <Button
                 size="sm"
                 rounded="md"
@@ -90,7 +90,7 @@ import { Link, Box, Flex, Text, Button, Stack } from "@chakra-ui/react";
               >
                 Create Account
               </Button>
-            </MenuItem>
+            </MenuItem> */}
           </Stack>
         </Box>
       )
